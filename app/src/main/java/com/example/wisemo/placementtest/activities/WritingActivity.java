@@ -1,7 +1,9 @@
-package com.example.wisemo.placementtest;
+package com.example.wisemo.placementtest.activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.example.wisemo.placementtest.R;
 
 public class WritingActivity extends AppCompatActivity {
 

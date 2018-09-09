@@ -1,4 +1,4 @@
-package com.example.wisemo.placementtest;
+package com.example.wisemo.placementtest.data;
 
 public class Question {
 

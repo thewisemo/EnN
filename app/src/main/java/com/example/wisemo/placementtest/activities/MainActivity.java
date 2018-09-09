@@ -1,18 +1,22 @@
-package com.example.wisemo.placementtest;
+package com.example.wisemo.placementtest.activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.wisemo.placementtest.R;
+import com.example.wisemo.placementtest.adapters.QuestionPagerAdapter;
+import com.example.wisemo.placementtest.data.Question;
 
 import java.util.ArrayList;
 import java.util.Arrays;

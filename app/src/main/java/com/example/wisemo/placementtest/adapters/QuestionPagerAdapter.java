@@ -1,15 +1,15 @@
-package com.example.wisemo.placementtest;
+package com.example.wisemo.placementtest.adapters;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.example.wisemo.placementtest.R;
+import com.example.wisemo.placementtest.data.Question;
 
 import java.util.List;
 
@@ -91,7 +91,7 @@ public class QuestionPagerAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(@NonNull View view, @NonNull Object object) {
-        return view == (View)object;
+        return view == object;
     }
 
     public Context getContext() {

@@ -1,11 +1,11 @@
-package com.example.wisemo.placementtest;
+package com.example.wisemo.placementtest.activities;
 
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,6 +14,8 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.wisemo.placementtest.R;
 
 public class LauncherActivity extends AppCompatActivity {
 
