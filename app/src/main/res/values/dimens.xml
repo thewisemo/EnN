@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="blue_line_height">60dp</dimen>
+    <dimen name="des_txt_width">180dp</dimen>
+    <dimen name="tf_margin">24dp</dimen>
+    <dimen name="fifty_margin">50dp</dimen>
+    <dimen name="sixteen_margin">16dp</dimen>
+    <dimen name="twenty_margin">20dp</dimen>
+    <dimen name="twenty_four_margin">24dp</dimen>
+    <dimen name="fourty_margin">40dp</dimen>
+    <dimen name="forBlueLine">100dp</dimen>
+    <dimen name="thirty_margin">30dp</dimen>
+    <dimen name="for_line_land_screen">70dp</dimen>
+    <dimen name="land_height">180dp</dimen>
+    <dimen name="land_lasc_height">140dp</dimen>
+    <dimen name="fifteen_margin">15dp</dimen>
+    <dimen name="sixty_margin">60dp</dimen>
+    <dimen name="txt_logo_marginTop">110dp</dimen>
+    <dimen name="land_heightForLarge">200dp</dimen>
+    <dimen name="line_heightForLarge">100dp</dimen>
+    <dimen name="busImgWidth">288dp</dimen>
+    <dimen name="busImgHeight">190dp</dimen>
+    <dimen name="actionBtnMrgnBtm">50dp</dimen>
+</resources>

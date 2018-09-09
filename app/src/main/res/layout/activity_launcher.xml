@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LauncherActivity"
+    tools:layout_editor_absoluteY="89dp">
+
+    <!--bottom dark-blue line-->
+
+    <!--Blue Circle Land-->
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="1483dp"
+        android:layout_height="370dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="384dp"
+        android:baselineAlignBottom="true"
+        android:contentDescription="@string/nation_land"
+        android:src="@drawable/dblue_land"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email"
+        app:layout_constraintVertical_bias="0.548"
+        tools:baselineAlignBottom="true" />
+    <!--EN People-->
+    <ImageView
+        android:id="@+id/en_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/cartoon_people"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email"
+        app:layout_constraintVertical_bias="0.672"
+        app:srcCompat="@drawable/en_people" />
+
+    <TextView
+        android:id="@+id/name_title"
+        android:layout_width="72dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/futura_std_bold"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_name"
+        app:layout_constraintStart_toStartOf="@+id/editText_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:ellipsize="start"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/ex_momen_ahmed"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/cell_title"
+        app:layout_constraintStart_toStartOf="@+id/cell_title" />
+
+    <TextView
+        android:id="@+id/cell_title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/futura_std_bold"
+        android:gravity="center"
+        android:text="@string/cell_phone"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_cell"
+        app:layout_constraintStart_toStartOf="@+id/editText_cell" />
+
+    <EditText
+        android:id="@+id/editText_cell"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:ellipsize="start"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/ex_01012345678"
+        android:imeOptions="actionNext"
+        android:inputType="phone"
+        android:singleLine="true"
+        app:layout_constraintStart_toStartOf="@+id/email_title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="start"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/ex_iam_e_mail_com"
+        android:imeOptions="actionDone"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_title"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/email_title"
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/futura_std_bold"
+        android:gravity="center"
+        android:text="@string/e_mail"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/editText_email"
+        app:layout_constraintTop_toBottomOf="@+id/editText_cell" />
+
+</android.support.constraint.ConstraintLayout>

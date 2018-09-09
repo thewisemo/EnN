@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Placement Test</string>
+    <string name="message_start_the_test">START</string>
+    <string name="action_next_q">Next</string>
+    <string name="skip">SKIP</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="see_you_soon">See You Soon!</string>
+    <string name="leave_app_msg">Are you sure to leave the test?</string>
+    <string name="nation_land">nation land</string>
+    <string name="cartoon_people">cartoon people</string>
+    <string name="name">NAME</string>
+    <string name="ex_momen_ahmed">ex. Momen Ahmed</string>
+    <string name="cell_phone">CELL PHONE</string>
+    <string name="ex_01012345678">ex. 01012345678</string>
+    <string name="ex_iam_e_mail_com">ex. iam@e-mail.com</string>
+    <string name="e_mail">E-MAIL</string>
+    <string name="action_start">Start</string>
+</resources>
